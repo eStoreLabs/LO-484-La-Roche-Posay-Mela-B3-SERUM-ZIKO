@@ -1,21 +1,28 @@
-@import url("https://use.typekit.net/cnc6cbd.css");
+@import url('https://use.typekit.net/cnc6cbd.css');
 :root {
   --es-blue-accent: #009fe3;
 }
 
 /* Locator Web Light */
 @font-face {
-  font-family: "LocatorWeb";
-  src: url("./assets/fonts/LocatorWebLight/LocatorWebLight.eot");
-  src: url("./assets/fonts/LocatorWebLight/LocatorWebLight.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/LocatorWebLight/LocatorWebLight.woff2") format("woff2"), url("./assets/fonts/LocatorWebLight/LocatorWebLight.woff") format("woff");
+  font-family: 'LocatorWeb';
+  src: url('./assets/fonts/LocatorWebLight/LocatorWebLight.eot');
+  src: url('./assets/fonts/LocatorWebLight/LocatorWebLight.eot?#iefix')
+      format('embedded-opentype'),
+    url('./assets/fonts/LocatorWebLight/LocatorWebLight.woff2') format('woff2'),
+    url('./assets/fonts/LocatorWebLight/LocatorWebLight.woff') format('woff');
   font-weight: 200;
   font-style: normal;
 }
 /* Locator Web Medium */
 @font-face {
-  font-family: "LocatorWeb";
-  src: url("./assets/fonts/LocatorWebMedium/LocatorWebMedium.eot");
-  src: url("./assets/fonts/LocatorWebMedium/LocatorWebMedium.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/LocatorWebMedium/LocatorWebMedium.woff2") format("woff2"), url("./assets/fonts/LocatorWebMedium/LocatorWebMedium.woff") format("woff");
+  font-family: 'LocatorWeb';
+  src: url('./assets/fonts/LocatorWebMedium/LocatorWebMedium.eot');
+  src: url('./assets/fonts/LocatorWebMedium/LocatorWebMedium.eot?#iefix')
+      format('embedded-opentype'),
+    url('./assets/fonts/LocatorWebMedium/LocatorWebMedium.woff2')
+      format('woff2'),
+    url('./assets/fonts/LocatorWebMedium/LocatorWebMedium.woff') format('woff');
   font-weight: 400;
   font-style: normal;
 }
@@ -74,7 +81,7 @@
   font-size: 1rem;
 }
 #la-roche.la-roche p > sup {
-  font-size: 0.7rem;
+  font-size: 0.6rem;
 }
 #la-roche.la-roche .es-kv {
   padding: 20px;
@@ -138,7 +145,7 @@
 #la-roche.la-roche .es-effects {
   padding-top: 20px;
   padding-bottom: 50px;
-  background-image: url("../img/effects-bg.png");
+  background-image: url('../img/effects-bg.png');
   background-repeat: no-repeat;
   background-position: center right;
   background-size: initial;
@@ -258,7 +265,7 @@
   margin-right: 10px;
   height: 30px;
   min-width: 40px;
-  content: "";
+  content: '';
   background: url(../img/check-icon.png) no-repeat 0 0;
   background-size: 25px 25px;
 }
@@ -438,7 +445,7 @@
   line-height: 1.4;
 }
 #la-roche.la-roche .es-use ol li::marker {
-  content: counter(my-counter) ".";
+  content: counter(my-counter) '.';
   font-weight: 400;
   font-size: 0.8rem;
   font-family: Montserrat, sans-serif;
@@ -866,4 +873,4 @@
   #la-roche.la-roche .es-footer {
     margin-top: 75px;
   }
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
